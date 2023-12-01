@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background-color: #0093E9;
+  background: rgb(0,147,233);
+background: -moz-linear-gradient(160deg, rgba(0,147,233,1) 0%, rgba(128,208,199,1) 100%);
+background: -webkit-linear-gradient(160deg, rgba(0,147,233,1) 0%, rgba(128,208,199,1) 100%);
+background: linear-gradient(160deg, rgba(0,147,233,1) 0%, rgba(128,208,199,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0093e9",endColorstr="#80d0c7",GradientType=1);
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+.auth{
+  background-color: #ffffff;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  padding: 2rem;
+  border-radius: .5rem;
+  min-width: 32rem;
+}
+
+.auth h1{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid silver;
+}
+
+.auth form{
+  margin: 1rem;
+}
+
+.auth input{
+  width: 100%;
+  margin-top: 2rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  border: none;
+  border-bottom: 0.15rem solid rgb(163, 163, 163);
+  padding:0 0.5rem;
+  outline: none;
+}
+
+.auth input:hover{
+  border-bottom: 0.15rem solid #0086da;
+}
+
+.auth input::placeholder{
+  color: rgb(163, 163, 163);
+}
+
+
+.auth form p{
+  font-size: 1.3rem;
+  padding: 3rem .5rem 0 0;
+  color: rgb(163, 163, 163);
+}
+
+.auth form p:hover{
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}
+
+.auth button[type="submit"]{
+  display: block;
+  margin: 2rem auto;
+  font-size: 1.6rem;
+  width: 90%;
+  padding: 0.9rem 0;
+  border-radius: 1.7rem;
+  border: none;
+  background-color: #0086da;
+  color: #ffffff;
+}
+
+.auth button[type="submit"]:hover{
+  cursor: pointer;
+}
+
+.auth .login-message{
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.auth .login-message span{
+  color: #007ecc;
+  font-weight: 600;
+}
+
+.auth .login-message span:hover{
+  cursor: pointer;
+}
